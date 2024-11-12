@@ -9,7 +9,7 @@ In *Last Haven*, players take charge of a fortified prison, transforming it into
 
 - **Players**
   - **Age Range:** 10+  
-  - Primarily a solo game, with optional co-op missions available for teamwork against the computer-controlled threats.
+  - Primarily a **solo game**, with optional **co-op missions** available for **teamwork** against the computer-controlled threats.
 
 - **Goals**
   - Survive as long as possible, maintaining the safety of the prison and reinforcing its defenses.
@@ -46,7 +46,7 @@ In *Last Haven*, players take charge of a fortified prison, transforming it into
 ---
 ### Market Research
 
-- **Similar Games:**
+- *Similar Games:*
   - *Zombie Defense*
   - *Ultimate Zombie Defense*
 
@@ -54,4 +54,4 @@ Both games emphasize defense and fortification without direct combat or resource
 
 *Our Unique Components:* Engaging in direct combat with zombies and performing supply runs to gather critical survival resources.
 
-Can you defend your last haven in a world overrun by the undead? Test your resilience in *Last Haven*!
+Can you defend your last haven in a world overrun by the undead? **Test your resilience in *Last Haven*!**
