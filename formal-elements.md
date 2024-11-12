@@ -1,97 +1,55 @@
-Last Haven
+# Last Haven
 
-Survive the Dead. Defend the living.
+**Survive the Dead. Defend the Living.**
 
+In *Last Haven*, players take charge of a fortified prison, transforming it into a safe haven amid a zombie apocalypse. As the leader, you must defend against zombie hordes, repair and reinforce the perimeter, and ward off hostile human raiders. Players will manage vital resources like food, water, and medicine, and undertake risky supply runs to sustain the camp, ensuring the group's survival in a world overrun by the undead.
 
-In this survival game, players take charge of a fortified prison,
-transforming it into a safe haven amid a zombie apocalypse.
-They must defend against the zombie hordes, repair and reinforce the perimeter and ward off hostile human raiders.
-The player will manage vital resources like food, water and medicine, undertaking risky supply runs to sustain the camp.
-ensuring the group's survival in a world overrun by zombies.
+### Official Components
 
+- **Players**
+  - **Age Range:** 10+  
+  - Primarily a solo game, with optional co-op missions available for teamwork against the computer-controlled threats.
 
+- **Goals**
+  - Survive as long as possible, maintaining the safety of the prison and reinforcing its defenses.
+  - Track supplies and respond to resource shortages, focusing efforts where defenses are needed.
+  - Winning involves surviving increasingly challenging waves of zombies as the game progresses.
 
+- **Procedures**
+  - Upon starting the game, the player faces immediate threats as zombies overrun the fences.
+  - The player must fend off zombies, manage resources, and maintain group survival.
+  - The game ends if resources are depleted, fences are breached, or the prison is overrun.
 
+- **Laws**
+  - Time management and resource balancing are crucial to survival.
+  - The game begins with zombies breaching the fences, reinforcing the urgency of defense.
+  - The player monitors water, food, and medicine gauges, initiating supply runs when needed.
 
+- **Resources**
+  - Players have multiple weapon options and methods to fortify defenses.
+  - Supply runs provide essential resources but are limited, requiring frequent scavenging missions.
+  - Resources gathered are stored in cabinets, allowing strategic planning for future defenses.
 
+- **Conflicts**
+  - The main conflicts arise between the player and zombies, as well as the limited resources.
+  - Players must strategically decide when to go on supply runs and how best to defend and fortify the fences.
 
+- **Borders**
+  - The prison walls serve as the game’s borders; the player cannot leave the prison area.
+  - The game is confined to the prison grounds, with supply runs initiated through a map interface for external missions.
 
+- **Outcome**
+  - As a survival-based game, the primary objective is to endure as long as possible, facing increasing numbers of zombies and raids.
+  - Success depends on the player’s skills in defending the prison and efficiently scavenging for supplies.
 
+### Market Research
 
+- **Similar Games:**
+  - *Zombie Defense*
+  - *Ultimate Zombie Defense*
 
+Both games emphasize defense and fortification without direct combat or resource management. *Last Haven* distinguishes itself by incorporating hands-on fighting with zombies and active supply runs for resources, adding an extra layer of immersion and challenge.
 
+*Our Unique Components:* Engaging in direct combat with zombies and performing supply runs to gather critical survival resources.
 
-Official components - 
-		
-	Players - 
-		Age range 10+ 
-		Will be mainly for solo players only and will feature Co-op missions.
-The game will be cooperative between the other players but mostly against the computer.
-
-	Goals - 
-The goals of the game are to Survive as much as possible, maintaining the fence and the prison safety.
-The game will let the player know on which supplies he is running out of and where he is needed to maintain the fence and fight off zombies.
-you win the game by surviving as much as possible with harder level settings as time goes.
-
-	Procedures - 
-First when opening the game the fences will be overrun and the player will have to go and defend against the zombies straight away.
-The player will constantly have to fight off zombies and will have to take care of supplies and his group.
-Game ending is when the group is run out of resources or the fences break and the prison is overrun with zombies - the player has failed defending the prison.
-
-	
-	Laws - 
-
-The player will have to manage his time correctly without running out of supplies and without losing the fences.
-The player will have zombies overrunning the fences at the start of the game and he will be needed to protect it straight away so the player will know that he needs to defend it. In addition the player will have water, food and medicine gauges that will let the player know when he needs to go out on supply runs.
-
-
-
-
-
-
-	Resources - 
-
-The Player will have multiple weapon choices and various methods to defend and fortify the fence.
-The resources will help the player defeat the zombies more efficiently and will give him more time to defend the fences if they're more fortified.
-The player will go on supply runs to gain resources.
-the resources will be varied and will not be able to find many at each time,  requiring the player to go on frequent supply runs.
-There will be cabinets with the resources gathered.
-
-Conflicts - 
-	Main game conflicts will be between the player and the zombies 
-and the resources which are all against the computer that will be forming those challenges.
-The player will have to choose when and where to go on supply runs, according to the difficulty. and when and how to defend the fences and fortify them.
-
-Borders - 
-The borders will be the fence walls, the player will not be able to leave them and have to stay inside the prison.
-the game will be open only inside the prison and the supply runs will not be.
-The player will have to walk to get to the fences and to get to supply runs the player will have to open a map and choose a destination to go scavenging.
-
-
-	Outcome - 
-This is a survival based game so the outcome is to survive as long as the game will beat him with the amount of zombies and raids.
-The result is mostly on the player's skills, defending the prison as best as he can and scavenging in harder places to get better supplies.
-
-
-
-
-
-
-
-Market Research - 
-	Similar games - keyphrase:
-”Zombie defense game”
-Zombie defense 
-Ultimate Zombie Defense
-
-Both of these games don't feature actual fighting and they're mostly defending and fortifying.
-Our game will feature actual fighting with the zombies and will have supply runs.
-And that is the big difference between our game and the games that exist already.
-
-
-
-Our unique game components are the actual fighting against the zombies and the supply runs to gather the items needed to survive as long as possible.
-
-
-
-
+Can you defend your last haven in a world overrun by the undead? Test your resilience in *Last Haven*!
