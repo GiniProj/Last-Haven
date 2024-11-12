@@ -1,5 +1,4 @@
 # Last Haven
-
 <div align="center">
   <img src="Last-Heaven-Logo.jpg" width="300"/>
 </div>
@@ -7,6 +6,7 @@
 ### Description
 *Last Haven* is a survival game set in a post-apocalyptic world overrun by zombies. Players take on the role of a leader within a fortified prison, transforming it into the last safe haven for humanity. Defend the prison from waves of zombies, repair the perimeter, and fend off human raiders while managing vital resources like food, water, and medicine. Scavenge for supplies, fortify defenses, and protect your group at all costs. The longer you survive, the harder the challenges become. How long can you keep the prison standing?
 
+---
 ### Key Features
 
 - **Audience:** Recommended for ages 10+  
@@ -17,6 +17,7 @@
 - **Creators:** Koren Abdush, Amit Gini  
 - **More Information:** [Game Documentation](https://github.com/GiniProj/Last-Haven/blob/main/formal-elements.md)  
 
+---
 ### Game Components
 
 - **Resource Management:** Balance food, water, and medicine while defending the prison.
