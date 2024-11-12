@@ -8,6 +8,7 @@
   <img src="Last-Haven-Logo.jpg" width="300"/>
 </div>
 
+### Description
 In *Last Haven*, players take charge of a fortified prison, transforming it into a safe haven amid a zombie apocalypse. As the leader, you must defend against zombie hordes, repair and reinforce the perimeter, and ward off hostile human raiders. Players will manage vital resources like food, water, and medicine, and undertake risky supply runs to sustain the camp, ensuring the group's survival in a world overrun by the undead.
 
 ---
