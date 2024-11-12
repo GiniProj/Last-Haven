@@ -4,6 +4,7 @@
 
 In *Last Haven*, players take charge of a fortified prison, transforming it into a safe haven amid a zombie apocalypse. As the leader, you must defend against zombie hordes, repair and reinforce the perimeter, and ward off hostile human raiders. Players will manage vital resources like food, water, and medicine, and undertake risky supply runs to sustain the camp, ensuring the group's survival in a world overrun by the undead.
 
+---
 ### Official Components
 
 - **Players**
@@ -42,6 +43,7 @@ In *Last Haven*, players take charge of a fortified prison, transforming it into
   - As a survival-based game, the primary objective is to endure as long as possible, facing increasing numbers of zombies and raids.
   - Success depends on the player’s skills in defending the prison and efficiently scavenging for supplies.
 
+---
 ### Market Research
 
 - **Similar Games:**
