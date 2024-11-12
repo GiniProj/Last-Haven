@@ -1,6 +1,11 @@
 # Last Haven
+
 <div align="center">
-  <img src="" width="300"/>
+  <h3><strong>Survive the Dead, Defend the Living</strong></h3>
+</div>
+
+<div align="center">
+  <img src="Last-Haven-Logo.jpg" width="300"/>
 </div>
 
 ### Description
