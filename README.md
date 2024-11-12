@@ -1,6 +1,6 @@
 # Last Haven
 <div align="center">
-  <img src="Last-Heaven-Logo.jpg" width="300"/>
+  <img src="" width="300"/>
 </div>
 
 ### Description
