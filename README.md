@@ -22,7 +22,6 @@
 - **Creators:** Koren Abdush, Amit Gini  
 - **More Information:** [Game Documentation](https://github.com/GiniProj/Last-Haven/blob/main/formal-elements.md)  
 
----
 ### Game Components
 
 - **Resource Management:** Balance food, water, and medicine while defending the prison.
