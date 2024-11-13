@@ -50,7 +50,6 @@ In *Last Haven*, players take charge of a fortified prison, transforming it into
   - As a survival-based game, the primary objective is to endure as long as possible, facing increasing numbers of zombies and raids.
   - Success depends on the player’s skills in defending the prison and efficiently scavenging for supplies.
 
----
 ### Market Research
 
 - *Similar Games:*
