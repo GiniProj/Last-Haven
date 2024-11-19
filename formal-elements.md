@@ -51,20 +51,19 @@ In *Last Haven*, players take charge of a fortified prison, transforming it into
   - Success depends on the player’s skills in defending the prison and efficiently scavenging for supplies.
 ---
 ### Scenarios
-  **Overruned Fences**
-  
+ - **Overruned Fences**
       You’re inside the prison and suddenly a wave of zombies come by and try to break through the fence.
-      You have to pick your weapon carefully considering the amount of zombies and ammunition you have                 left.
-      In addition you will have to take materials to fix and fortify the fence if the zombies manage to damage         or fully destroy the fence.
-      You will have to eliminate the zombies with minimal damage to the fence and will have to fix the fence           without getting damaged or killed by the zombies.
+      You have to pick your weapon carefully considering the amount of zombies and ammunition you have left.
+      In addition you will have to take materials to fix and fortify the fence if the zombies manage to damage or fully destroy the fence.
+      You will have to eliminate the zombies with minimal damage to the fence and will have to fix the fence without getting damaged or killed by the zombies.
       You will be able to take a teammate with you to help you do the tasks but will have to arm them as well.
 
-  **Supply Rums**
-  
-      You’re running out of necessities, your water food medicine or tools are almost out of stock, you will now       have to go on a supply run to try and collect as many supplies as possible to maintain your camp.
+ - **Supply Rums**
+      You’re running out of necessities, your water food medicine or tools are almost out of stock, you will now have to go on a supply run to try and collect as many supplies as possible to maintain your camp.
       You will have to face waves of zombies as you proceed to gain more rare items.
-      You will have to look for building materials for the fence, food, water and medicine for your group and          weapons to defend yourself more efficiently.
-      You will have to overcome waves of zombies in order to get the rarer items and risk more in order to get         more. you will have to return to the prison safely with the new supplies gathered.
+      You will have to look for building materials for the fence, food, water and medicine for your group and weapons to defend yourself more efficiently.
+      You will have to overcome waves of zombies in order to get the rarer items and risk more in order to get more.
+      you will have to return to the prison safely with the new supplies gathered.
 
   ###Usables
     - Weapons - Guns, Knives and Explosives.
