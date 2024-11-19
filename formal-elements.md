@@ -65,7 +65,8 @@ In *Last Haven*, players take charge of a fortified prison, transforming it into
       You will have to overcome waves of zombies in order to get the rarer items and risk more in order to get more.
       you will have to return to the prison safely with the new supplies gathered.
 
-  ###Usables
+  ### Usables
+   - 
     - Weapons - Guns, Knives and Explosives.
     - Supplies - Food, Water and Medicine.
     - Zombies - Different kinds and toughness.
