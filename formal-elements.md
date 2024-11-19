@@ -67,12 +67,12 @@ In *Last Haven*, players take charge of a fortified prison, transforming it into
 
   ### Usables   
   -Exapmles:  
-    - Weapons - Guns, Knives and Explosives.
-    - Supplies - Food, Water and Medicine.
-    - Zombies - Different kinds and toughness.
-    - Building materials - Wood, Steel, Concrete and Leather.
-    - Gauges - safety of the base, health and supplies.
-
+    -Weapons - Guns, Knives and Explosives.
+    -Supplies - Food, Water and Medicine.
+    -Zombies - Different kinds and toughness.
+    -Building materials - Wood, Steel, Concrete and Leather.
+    -Gauges - safety of the base, health and supplies.
+  
 
 ---
 ### Market Research
