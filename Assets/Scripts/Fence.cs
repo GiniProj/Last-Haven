@@ -39,55 +39,6 @@ public class Fence : MonoBehaviour
     }
 
 
-    public void RepairOrBuildFence()
-    {
-        if (isFenceDestroyed)
-        {
-            BuildFence();
-        }
-        else
-        {
-            RepairFence();
-        }
-    }
-
-    private void BuildFence()
-    {
-        currentFenceHealth = maxFenceHealth;
-        isFenceDestroyed = false;
-        // rb.simulated = true;
-        fenceCollider.enabled = true;
-        Debug.Log("Fence is built!");
-        ResetVisuals();
-    }
-
-    private void RepairFence()
-    {
-        if (currentFenceHealth >= maxFenceHealth) return;
-
-        currentFenceHealth = Mathf.Min(currentFenceHealth + healthToAddWhenRepair, maxFenceHealth);
-        Debug.Log("Fence is repaired!");
-        IncreaseVisuals();
-    }
-
-    public void FenceTakeDamage()
-    {
-        if (isFenceDestroyed) return;
-
-        currentFenceHealth -= damageWhenHit;
-        Debug.Log($"Fence Health: {currentFenceHealth}");
-
-        if (currentFenceHealth <= 0)
-        {
-            currentFenceHealth = 0;
-            isFenceDestroyed = true;
-            rb.simulated = false;
-            fenceCollider.enabled = false;
-            Debug.Log("Fence is destroyed!");
-        }
-
-        DecreaseVisuals();
-    }
 
     private void IncreaseVisuals()
     {
@@ -125,5 +76,35 @@ public class Fence : MonoBehaviour
             newColor.a = 1f;
             spriteRenderer.color = newColor;
         }
+    }
+
+    public bool RepairFence()
+    {
+        if (currentFenceHealth >= maxFenceHealth) return false; // Fence is already at max health
+
+        currentFenceHealth = Mathf.Min(currentFenceHealth + healthToAddWhenRepair, maxFenceHealth);
+        Debug.Log("Fence is repaired!");
+        if (currentFenceHealth != maxFenceHealth) IncreaseVisuals();
+        else ResetVisuals();
+        return true;
+    }
+
+    public void FenceTakeDamage()
+    {
+        if (isFenceDestroyed) return;
+
+        currentFenceHealth -= damageWhenHit;
+        Debug.Log($"Fence Health: {currentFenceHealth}");
+
+        if (currentFenceHealth <= 0)
+        {
+            currentFenceHealth = 0;
+            isFenceDestroyed = true;
+            rb.simulated = false;
+            fenceCollider.enabled = false;
+            Debug.Log("Fence is destroyed!");
+        }
+
+        DecreaseVisuals();
     }
 }

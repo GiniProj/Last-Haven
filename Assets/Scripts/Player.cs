@@ -6,25 +6,27 @@ public class Player : MonoBehaviour
     public static Player Instance { get; set; }
 
     [Header("Player Action Settings")]
+    [Tooltip("The transform point where the weapon is located")]
     [SerializeField] private Transform weaponPoint;
+    [Tooltip("The bullet prefab for shooting")]
     [SerializeField] private GameObject bulletPrefab;
+    [Tooltip("The cooldown time between each shot")]
     [SerializeField] private float shootCooldown = 0.5f;
+    [Tooltip("Reference to the Rigidbody2D component")]
     [SerializeField] private Rigidbody2D rb;
+    [Tooltip("Reference to the Collider2D component")]
     [SerializeField] private Collider2D playerCollider;
 
-    private Fence currentNearbyFence;
-    private float moveSpeed;
-    private float currentHealth;
-    private float currentMoney;
-    private float lastShootTime;
-    private bool isAlive = true;
-    private ContactFilter2D contactFilter;
-    private readonly RaycastHit2D[] hitResults = new RaycastHit2D[4];
+    private float moveSpeed;  // The movement speed of the player
+    private float currentHealth;  // The current health of the player
+    private float currentMoney;  // The current money of the player
+    private float lastShootTime;  // The time of the last shot
+    private bool isAlive = true;  // Whether the player is alive
 
-    public Fence CurrentNearbyFence { get; set; }
     public float CurrentPlayerHealth => currentHealth;
     public bool IsPlayerAlive => isAlive;
 
+    // Singleton pattern
     void Awake()
     {
         if (Instance == null)
@@ -118,7 +120,7 @@ public class Player : MonoBehaviour
             lastShootTime = Time.time;
         }
 
-        // Repair or Build Fence
+        // Repair Fence
         if (Input.GetMouseButtonDown(1))
         {
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -129,39 +131,28 @@ public class Player : MonoBehaviour
                 Fence fence = hit.collider.GetComponent<Fence>();
                 if (fence != null)
                 {
-                    ActionRepairOrBuildFence(fence);
+                    ActionRepairFence(fence);
                 }
             }
         }
     }
 
-    private void ActionRepairOrBuildFence(Fence fence)
+    private void ActionRepairFence(Fence fence)
     {
-        if (fence.IsFenceDestroyed)
+        if (!fence.IsFenceDestroyed)
         {
-            if (currentMoney >= GameManager.Instance.FenceBuildNewCost)
+            if (currentMoney >= GameManager.Instance.FenceRepairCost)
             {
-                fence.RepairOrBuildFence();
-                currentMoney -= GameManager.Instance.FenceBuildNewCost;
-                UIManager.Instance.UpdateMoneyText(currentMoney);
-            }
-            else
-            {
-                Debug.Log("Not enough money to build new fence!");
+                if (fence.RepairFence())
+                {
+                    currentMoney -= GameManager.Instance.FenceRepairCost;
+                    UIManager.Instance.UpdateMoneyText(currentMoney);
+                }
             }
         }
         else
         {
-            if (currentMoney >= GameManager.Instance.FenceRepairCost)
-            {
-                fence.RepairOrBuildFence();
-                currentMoney -= GameManager.Instance.FenceRepairCost;
-                UIManager.Instance.UpdateMoneyText(currentMoney);
-            }
-            else
-            {
-                Debug.Log("Not enough money to repair fence!");
-            }
+            Debug.Log("Fence is already destroyed!");
         }
     }
 

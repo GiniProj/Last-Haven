@@ -12,13 +12,16 @@ public class ZombieSpawner : MonoBehaviour
     [SerializeField] private float maxAdditionalSpawnDistance = 5f;
 
     [Header("Random Spawn Properties")]
+    [Tooltip("Whether to randomize the zombie properties on spawn")]
     [SerializeField] private bool withRandomSpawnProperties = false;
+    [Tooltip("The range of health values for the zombies")]
     [SerializeField] private Vector2 zombieHealthRange = new Vector2(3f, 15f);
+    [Tooltip("The range of move speed values for the zombies")]
     [SerializeField] private Vector2 zombieMoveSpeedRange = new Vector2(0.5f, 2f);
 
-    private float spawnRate;
-    private float nextSpawnTime;
-    private Camera mainCamera;
+    private float spawnRate; // Current spawn rate
+    private float nextSpawnTime;  // Time to spawn next zombie
+    private Camera mainCamera;  // Reference to the main camera, used for spawning location
 
     private void Start()
     {

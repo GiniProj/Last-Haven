@@ -5,18 +5,19 @@ public class Zombie : MonoBehaviour
 {
     [Tooltip("The knockback force for any damage dealt to the fence")]
     [SerializeField] private float knockbackForce = 2f;
+    [Tooltip("The duration of the knockback effect")]
     [SerializeField] private float knockbackDuration = 0.5f;
 
-    private Transform currentTarget;
-    private Rigidbody2D rb;
-    private Vector2 blockedDirection = Vector2.zero;
-    private Fence currentFence;
-    private bool isKnockedBack = false;
-    private bool isCollidingWithFence = false;
-    private float knockbackEndTime;
-    private float currentHealth;
-    private float currentMoveSpeed;
-    private float damageWhenHit;
+    private Transform currentTarget;  // The current target for the zombie to move towards
+    private Rigidbody2D rb;  // Reference to the Rigidbody2D component
+    private Vector2 blockedDirection = Vector2.zero;  // The direction that the zombie is blocked by the fence
+    private Fence currentFence;  // The current fence that the zombie is colliding with
+    private bool isKnockedBack = false;  // Whether the zombie is currently knocked back
+    private bool isCollidingWithFence = false;  // Whether the zombie is currently colliding with a fence
+    private float knockbackEndTime;  // The time when the knockback effect ends
+    private float currentHealth;        // The current health of the zombie
+    private float currentMoveSpeed;   // The current movement speed of the zombie
+    private float damageWhenHit;  // The damage dealt to the zombie when hit
 
 
     public float ZombieSetHealth { set { currentHealth = value; } }  // for spawner modification option
@@ -153,7 +154,6 @@ public class Zombie : MonoBehaviour
         if (currentHealth <= 0)
         {
             GameManager.Instance.AddZombieDefeated();
-            Player.Instance.AddPlayerMoney();
             Destroy(gameObject);
         }
     }

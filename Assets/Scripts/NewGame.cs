@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class NewGame : MonoBehaviour
 {
+    // Start a new game
     public void StartNewGame()
     {
         SceneManager.LoadScene("LastHaven");
