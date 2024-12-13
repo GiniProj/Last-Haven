@@ -1,5 +1,7 @@
 # Last Haven
 
+[**Play on Itch.io**](https://kg-proj.itch.io/https://kg-proj.itch.io/last-haven)
+
 <div align="center">
   <h3><strong>Survive the Dead, Defend the Living</strong></h3>
 </div>
